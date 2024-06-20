@@ -21,4 +21,4 @@ The goal is to develop a machine learning model that accurately predicts habitab
 
 ## Results
 
-Achieved a remarkable mean accuracy of **0.9927** across all folds, demonstrating exceptional performance in exoplanet classification. The predictions of the model are saved in [submission](https://github.com/Dream-Falls/Nebulanet/blob/main/submission.csv).
+Achieved a remarkable mean accuracy of **0.9927** across all folds, demonstrating exceptional performance in exoplanet classification. The predictions of the model are stored [here](https://github.com/Dream-Falls/Nebulanet/blob/main/submission.csv).
