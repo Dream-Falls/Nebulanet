@@ -9,14 +9,14 @@ The goal is to develop a machine learning model that accurately predicts habitab
 
 * **Dataset:** The provided dataset for the challenge can be found [here](https://www.kaggle.com/competitions/exoplanet-hunting/data).
 * **Optimized Data Preprocessing:**
-  * Irrelevant features removed for improved model efficiency.
-  * Dimensionality reduced using PCA (9 components, retaining 97.1% variance) for faster training.
-  * Features standardized with StandardScaler for better model convergence.
+  * Irrelevant features were removed for improved model efficiency.
+  * Dimensionality was reduced using PCA (9 components, retaining 97.1% variance) for faster training.
+  * Features were standardized with StandardScaler for better model convergence.
 * **Robust Evaluation & Hyperparameter Tuning:**
-  * Stratified K-fold cross-validation (5 folds) ensured reliable performance estimation.
-  * Hyperopt library optimized hyperparameters to maximize model accuracy.
+  * Stratified K-fold cross-validation ensured reliable performance estimation.
+  * The Hyperopt library was used to optimize hyperparameters to maximize model accuracy.
 * **Class Imbalance Handling:**
-  * 'scale_pos_weight' parameter addressed class imbalance in the target variable, focusing on cost-sensitive learning.
+  * The 'scale_pos_weight' parameter addressed class imbalance in the target variable, focusing on cost-sensitive learning.
 
 
 ## Results
